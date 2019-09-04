@@ -1,0 +1,7 @@
+builders:
+  repro_aggregate_builder:
+    import: 'package:repro_aggregate_builder/builder.dart'
+    builder_factories: ['concatBuilder']
+    build_extensions: {'$lib$': ['concat.txt']}
+    auto_apply: dependents
+    build_to: source

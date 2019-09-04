@@ -1,0 +1,20 @@
+name: repro_aggregate_builder
+version: 0.5.0
+
+authors:
+  - Igor Borges <igor@borges.dev>
+
+description: Minimal reproduction of an Aggregate Builder using `build` package
+homepage: https://github.com/comigor
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  build: ^1.1.4
+  source_gen: ^0.9.4+2
+  glob: ^1.1.7
+  
+dev_dependencies:
+  build_runner: ^1.5.0
+  pedantic: ^1.8.0+1
